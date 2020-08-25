@@ -1,0 +1,8 @@
+api:
+    resource: "../src/Resource/config/api_routing.yaml"
+    type: rest
+    prefix: /api/{version}
+    requirements:
+        version: '%api_versions%'
+#    path: /
+#    controller: App\Controller\DefaultController::index
